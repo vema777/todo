@@ -21,6 +21,11 @@ a:hover {
   text-decoration: underline;
 }
 
+button{
+  background: transparent;
+  border: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
