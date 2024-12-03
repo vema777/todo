@@ -1,0 +1,16 @@
+.ActionButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: #f3f3f3;
+  border: none;
+  padding: .7rem;
+  border-radius: .3rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ActionButton:hover{
+  background: #d3d3d3
+}

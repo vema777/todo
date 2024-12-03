@@ -1,0 +1,16 @@
+.AppHeader {
+  width: 100%;
+  height: 55px;
+  align-items: center;
+  position: fixed;
+  background: whitesmoke;
+}
+
+.AppHeaderContent {
+  height: inherit;
+  width: 98%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
