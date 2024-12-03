@@ -1,0 +1,39 @@
+.FabButton{
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+}
+
+.FabButton:hover{
+  background: whitesmoke;
+  color: black;
+}
+
+.Selected{
+  background: white;
+  color: black;
+}
+
+.BgWhite{
+  background: transparent;
+  color: black;
+}
+
+.BgWhite:hover{
+  background: #d3d3d3;
+}
+
+.AddButton{
+  background: black;
+}
+
+.AddButton:hover{
+  background: black;
+  color: white;
+}
