@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Login} from "./login/Login";
 import {Layout} from "./layout/Layout";
 import {Home} from "./home/Home";
+import {Logup} from "./logup/Logup";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                     <Route index element={<Home/>} />
                 </Route>
                 <Route path="/login" element={<Login />}/>
+                <Route path="/register" element={<Logup/>}/>
             </Routes>
         </BrowserRouter>
     );
