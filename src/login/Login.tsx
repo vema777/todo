@@ -18,7 +18,7 @@ export function Login() {
                     <ActionButton>
                         Einloggen
                     </ActionButton>
-                    <p>Kein Konto ? <a href={'/'}>Sich registrieren</a> </p>
+                    <p>Kein Konto ? <a href={'/register'}>Sich registrieren</a> </p>
                 </form>
             </Card>
         </Center>
