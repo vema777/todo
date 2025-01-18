@@ -18,7 +18,7 @@ export function Layout() {
         <div>
             <AppHeader>
                 <button>
-                    <Avatar height={'40'} width={'40'}>
+                    <Avatar height={'35'} width={'35'}>
                         <p>P</p>
                     </Avatar>
                 </button>
@@ -32,7 +32,9 @@ export function Layout() {
                 </div>
             </AppHeader>
             <main className={'MainBody'} style={{paddingTop: '60px'}}>
-                <Outlet/>
+                <div className={'MainBodyContent'}>
+                    <Outlet/>
+                </div>
             </main>
             <BottomNav>
                 <FabButton>

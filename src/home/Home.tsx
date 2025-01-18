@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {TaskModel} from "../model/task.model";
 import {fetchTodos} from "../services/task.service";
 
+//TODO hier werden erstmal die Liste von todos angezeigt.
 export function Home(){
     const [todos, setTodos] = useState<TaskModel[]>([]);
 
@@ -16,6 +17,6 @@ export function Home(){
     }, [])
 
     return (
-        <div></div>
+        <p>Hello</p>
     )
 }

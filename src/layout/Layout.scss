@@ -1,5 +1,15 @@
 .MainBody{
   padding-top: 60px;
-  width: 70%;
+  width: 55%;
+  background: whitesmoke;
   margin: auto;
+}
+
+.MainBodyContent{
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: white;
+  border-radius: .5rem;
+  padding: 1rem;
 }
